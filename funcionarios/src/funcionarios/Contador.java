@@ -1,6 +1,6 @@
 package funcionarios;
 
-public class Contador extends Funcionario {
+public class Contador {
 	
 	private Double soma = 0.0;
 	
@@ -12,5 +12,7 @@ public class Contador extends Funcionario {
 	public double getSoma() {
 		return this.soma;
 	}
+
+
 	
 }

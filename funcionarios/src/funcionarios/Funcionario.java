@@ -1,6 +1,6 @@
 package funcionarios;
 
-public class Funcionario {
+public abstract class Funcionario {
 
 	private String nome;
 	private Double salario;
@@ -25,8 +25,6 @@ public class Funcionario {
 		Cpf = cpf;
 	}
 	
-	public Double getBonificacao() {
-		return this.salario * 0.1;
-	}
+	public abstract Double getBonificacao();
 	
 }
