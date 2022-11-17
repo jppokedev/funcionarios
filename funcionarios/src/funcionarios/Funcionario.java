@@ -3,7 +3,7 @@ package funcionarios;
 public abstract class Funcionario {
 
 	private String nome;
-	private Double salario;
+	private double salario;
 	private int Cpf;
 	
 	public String getNome() {
@@ -12,10 +12,10 @@ public abstract class Funcionario {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public Double getSalario() {
+	public double getSalario() {
 		return salario;
 	}
-	public void setSalario(Double salario) {
+	public void setSalario(double salario) {
 		this.salario = salario;
 	}
 	public int getCpf() {
